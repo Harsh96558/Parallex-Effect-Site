@@ -107,6 +107,60 @@ section{
     background-image: url(sport-3.jpg);
 }
 
+@media screen and (max-width: 990px) {
+
+    .wrapper{
+      
+        height: 60vh;
+    }
+    .container{
+      
+        height: 60%;
+    }
+    
+    #background, #foreground{
+        
+        height: 60%;
+        width: 60%;
+     
+    
+    
+    }
+    h1{
+   
+        font-size: 1.5rem;
+        color: white;
+       
+        top: 9rem;
+        text-shadow: 0 0 10px rgb(0,0,0,3);
+        
+        
+    }
+    .bg{
+    
+   
+    
+        position: relative;
+    
+    
+        
+        height: 800px;
+    
+    
+    }
+    
+    
+
+    
+   
+
+    
+   
+    
+}
+
+
+
 
 
 
