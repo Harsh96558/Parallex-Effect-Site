@@ -107,21 +107,154 @@ section{
     background-image: url(sport-3.jpg);
 }
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 900px) {
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
 
     .wrapper{
+        
+        height: 100vh;
+        
+       
       
-        height: 60vh;
+       
+        
+       
     }
     .container{
+        position: relative;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80%;
+       
+        
       
-        height: 60%;
+        
+        
+       
+    }
+    #background{
+        transform: translateZ(-50px) scale(6);
+    }
+    #foreground{
+        transform: translateZ(-50px) scale(4);
     }
     
     #background, #foreground{
         
-        height: 60%;
-        width: 60%;
+        height: 120%;
+        width: 100%;
+        object-fit: cover;
+        
+       
+        
+     
+    
+    
+    }
+    h1{
+   
+        font-size: 4rem;
+        color: white;
+       
+        top: 8rem;
+        text-shadow: 0 0 10px rgb(0,0,0,3);
+        
+        
+    }
+    .text{
+        padding: 0 4rem;
+        font-size: 1rem;
+        margin: 5rem 0;
+    
+    }
+    .sechead{
+        font-size: 2.5rem;
+        padding: 0 4rem;
+    
+    }
+    section{
+        position: relative;
+    }
+    .bg{
+    
+   
+    
+        position: relative;
+        width: 100%;
+   
+        background-size: cover;
+        background-attachment: fixed;
+        background-position:center ;
+        height: 500px;
+    }
+    .desc{
+        position: absolute;
+        background-color: white;
+        padding: 0.5rem 2.5rem;
+        top: 50%;
+        left: 35%;
+        
+        color: black;
+        font-weight:600 ;
+        
+    }
+
+
+}
+    
+    
+
+
+@media screen and (max-width: 660px) {
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+    .wrapper{
+        overflow-x: hidden;
+        height: 100vh;
+        overflow-y: auto;
+       
+      
+       
+        
+       
+    }
+    .container{
+        position: relative;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80%
+      
+        
+        
+       
+    }
+    #background{
+        transform: translateZ(-80px) scale(9);
+    }
+    #foreground{
+        transform: translateZ(-50px) scale(4);
+    }
+    
+    #background, #foreground{
+        
+        height: 120%;
+        width: 100%;
+        object-fit: cover;
+        
+       
+        
      
     
     
@@ -131,33 +264,63 @@ section{
         font-size: 1.5rem;
         color: white;
        
-        top: 9rem;
+        top: 8rem;
         text-shadow: 0 0 10px rgb(0,0,0,3);
         
         
     }
+    .text{
+        padding: 0 2rem;
+        font-size: .5rem;
+        margin: 3rem 0;
+    
+    }
+    .sechead{
+        font-size: 1.5rem;
+        padding: 0 2rem;
+    
+    }
+    section{
+        position: relative;
+    }
     .bg{
+        
     
    
     
         position: relative;
-    
-    
         
-        height: 800px;
+   
+        background-size: cover;
+        background-attachment: fixed;
+        background-position:70% ; 
+        height: 400px;
+        object-fit: cover;
+    }
+    #bg2{
+        background-image: url(sport-2.jpg);
+        background-position: 40%;
+    }
+
     
-    
+    .desc{
+        position: absolute;
+        background-color: white;
+        padding: 0.5rem 2.5rem;
+        top: 50%;
+        left: 25%;
+       
+        
+        color: black;
+        font-weight:600 ;
+        box-sizing: border-box;
+        
     }
     
     
-
-    
-   
-
-    
-   
-    
 }
+
+
 
 
 
